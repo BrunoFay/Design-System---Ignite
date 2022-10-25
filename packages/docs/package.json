@@ -29,8 +29,8 @@
     "@bfay/react": "*",
     "@bfay/tokens": "*",
     "@bfay/ts-config": "*",
+    "@storybook/addon-a11y": "^6.5.13",
     "phosphor-react": "^1.4.1",
-    "@storybook/addon-a11y": "^6.5.12",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
