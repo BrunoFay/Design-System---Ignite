@@ -1,0 +1,61 @@
+<!-- Typography.stories.mdx -->
+
+import { Meta, Typeset } from '@storybook/addon-docs';
+
+<Meta title="Tokens/Typography" />
+
+export const typography = {
+  type: {
+    primary: '"Roboto",sans-serif',
+  },
+  weight: {
+    regular: '400',
+    medium: '500',
+    bold: '700',
+    black: '900',
+  },
+  size: {
+    xxs: 0.625,
+    xs: 0.75,
+    sm: 0.875,
+    md: 1,
+    lg: 1.125,
+    xl: 1.25,
+    '2xl': 1.5,
+    '4xl': 2,
+    '5xl': 2.25,
+    '6xl': 3,
+    '7xl': 4,
+    '8xl': 4.5,
+    '9xl': 6,
+  },
+};
+
+export const SampleText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+
+# Typography
+
+**Font:** Roboto, Sans
+
+**Weights:** 400(regular), 500(medium), 700(bold)
+
+<Typeset
+  fontSizes={[
+   `${Number(typography.size.xxs)}rem`,
+    `${Number(typography.size.xs)}rem`,
+    `${Number(typography.size.sm)}rem`,
+    `${Number(typography.size.md)}rem`,
+    `${Number(typography.size.lg)}rem`,
+    `${Number(typography.size.xl)}rem`,
+    `${Number(typography.size['2xl'])}rem`,
+    `${Number(typography.size['4xl'])}rem`,
+    `${Number(typography.size['5xl'])}rem`,
+    `${Number(typography.size['6xl'])}rem`,
+    `${Number(typography.size['7xl'])}rem`,
+    `${Number(typography.size['8xl'])}rem`,
+    `${Number(typography.size['9xl'])}rem`,
+  ]}
+  fontWeight={typography.weight.black}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>
