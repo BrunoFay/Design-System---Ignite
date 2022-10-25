@@ -1,0 +1,2 @@
+import{A as t}from"./index.faa97e5d.js";import"./index.7d2e9bf2.js";import"./iframe.d7da9f22.js";import"./index.c14d9993.js";import"./jsx-runtime.4497ce46.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/brunofay.png",alt:"Bruno fay"},argTypes:{src:{control:{type:"text"}}}},c={},m={args:{src:void 0}},n=["Primary","WithFallback"];export{c as Primary,m as WithFallback,n as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories.0a38b6cc.js.map
