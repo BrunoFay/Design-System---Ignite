@@ -17,6 +17,7 @@ export const {
   theme,
   config,
   createTheme,
+  styled,
 } = createStitches({
   themeMap: {
     ...defaultThemeMap,

@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@bfay/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -25,6 +25,11 @@
     "vite": "^3.1.4"
   },
   "dependencies": {
+    "@bfay/eslint-config": "*",
+    "@bfay/tokens": "*",
+    "@bfay/react": "*",
+    "@bfay/ts-config": "*",
+    "@storybook/addon-a11y": "^6.5.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
