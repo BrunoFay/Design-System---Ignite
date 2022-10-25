@@ -11,7 +11,8 @@ export const Button = styled('button', {
   '&:hover': {
     backgroundColor: '$ignite300',
   },
-
+  color: '$white',
+  border: 'none',
   variants: {
     size: {
       small: {
